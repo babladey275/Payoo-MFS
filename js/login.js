@@ -12,7 +12,7 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     //this is temporary. should not do this like.
     if(phoneNumber === '5' && pinNumber === "1234") {
         //console.log("you are logged in");
-        window.location.href = '/home.html';
+        window.location.href = './home.html';
     }
     else{
         alert('Wrong phone number or pin');
